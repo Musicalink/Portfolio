@@ -15,7 +15,7 @@
   <header>
     <style>
       /* Carousel styling */
-      #introCarousel,
+      #MCCarousel,
       .carousel-inner,
       .carousel-item,
       .carousel-item.active {
@@ -110,20 +110,45 @@ text-align: center;
         background-position: center center;
       }
 
+
+            .carousel-item:nth-child(6) {
+              background-image: url('img/my_sokoban.gif');
+              background-repeat: repeat;
+              background-size: auto;
+              background-position: center center;
+            }
+
+            .carousel-item:nth-child(7) {
+              background-image: url('img/my_navy.gif');
+              background-repeat: repeat;
+              background-size: auto;
+              background-position: center center;
+            }
+
+            .carousel-item:nth-child(8) {
+              background-image: url('img/my_tetris.gif');
+              background-repeat: repeat;
+              background-size: auto;
+              background-position: center center;
+            }
+
       .navbar .nav-link {
         color: #fff !important;
       }
     </style>
 
     <!-- Carousel wrapper -->
-    <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-interval="false">
+    <div id="MCCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-interval="false">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
-        <li data-mdb-target="#introCarousel" data-mdb-slide-to="1" ></li>
-        <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
-        <li data-mdb-target="#introCarousel" data-mdb-slide-to="3"></li>
-        <li data-mdb-target="#introCarousel" data-mdb-slide-to="4"></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="0" class="active"></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="1" ></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="2"></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="3"></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="4"></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="5"></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="6"></li>
+                <li data-mdb-target="#MCCarousel" data-mdb-slide-to="7"></li>
       </ol>
 
       <!-- Inner -->
@@ -173,10 +198,10 @@ Integer elementum lectus diam, nec bibendum felis efficitur auctor. Curabitur lo
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
             <div class="d-flex justify-content-center align-items-center h-100">
 <div class="game-presentation text-white">
-  <h2>my_hunter (2018)</h2>
+  <h2>Space Hunter (2018)</h2>
   <p class="game-presentation-text">Realized during my studies at Epitech, this project aimed to make a reproduction of the game "Duck Hunt" in C/CSFML.
 This project allowed me to understand the importance of clean code as well as the basics of video game / engine development such as the main loop.</p>
-<a href="https://github.com/Musicalink"><i class="fab fa-github introduction-socials"></i></a>
+<a href="https://github.com/Musicalink/my_hunter_2018"><i class="fab fa-github introduction-socials"></i></a>
 </div>
             </div>
           </div>
@@ -187,10 +212,10 @@ This project allowed me to understand the importance of clean code as well as th
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
             <div class="d-flex justify-content-center align-items-center h-100">
 <div class="game-presentation text-white">
-  <h2>my_defender(2018)</h2>
+  <h2>Tower Defense (2018)</h2>
   <p class="game-presentation-text">Realized as part of my schooling at Epitech, this project aimed to make a small tower defense in C/CSFML.
 This project allowed me to understand the importance of memory management and allowed me to improve in the way I work.</p>
-<a href="https://github.com/Musicalink"><i class="fab fa-github introduction-socials"></i></a>
+<a href="https://github.com/Musicalink/my_defender_2018"><i class="fab fa-github introduction-socials"></i></a>
 </div>
             </div>
           </div>
@@ -201,12 +226,51 @@ This project allowed me to understand the importance of memory management and al
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
             <div class="d-flex justify-content-center align-items-center h-100">
 <div class="game-presentation text-white">
-  <h2>my_rpg(2018)</h2>
+  <h2>RPG (2018)</h2>
   <p class="game-presentation-text">Realized during my schooling at Epitech, this project aimed to make a small RPG in C/CSFML.
 This project made me understand the importance of good teamwork on larger projects in a limited time.
 
 The game features several simple quests, 3 biomes with different monsters, a stats, leveling and looting system (with three different classes of equipment), etc...</p>
-<a href="https://github.com/Musicalink"><i class="fab fa-github introduction-socials"></i></a>
+<a href="https://github.com/Musicalink/my_rpg_2018"><i class="fab fa-github introduction-socials"></i></a>
+</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+<div class="game-presentation text-white">
+  <h2>Sokoban (2018)</h2>
+  <p class="game-presentation-text">Realized during my schooling at Epitech, this project aimed to make a terminal reproduction of the game Sokoban in C/ncurses.</p>
+<a href="https://github.com/Musicalink/my_sokoban_2018"><i class="fab fa-github introduction-socials"></i></a>
+</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+<div class="game-presentation text-white">
+  <h2>Navy (2019)</h2>
+  <p class="game-presentation-text">Realized during my schooling at Epitech, this project aimed to make a terminal reproduction of the game Battleship in C.<br />The game had to be playable in "local multiplayer" between two instances of the game through the use of signals.</p>
+<a href="https://github.com/Musicalink/my_navy_2018"><i class="fab fa-github introduction-socials"></i></a>
+</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+<div class="game-presentation text-white">
+  <h2>Tetris (2019)</h2>
+  <p class="game-presentation-text">Realized during my schooling at Epitech, this project aimed to make a terminal reproduction of the game Tetris.</p>
+<a href="https://github.com/Musicalink/my_tetris_2018"><i class="fab fa-github introduction-socials"></i></a>
 </div>
             </div>
           </div>
@@ -219,11 +283,11 @@ The game features several simple quests, 3 biomes with different monsters, a sta
       <!-- Inner -->
 
       <!-- Controls -->
-      <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+      <a class="carousel-control-prev" href="#MCCarousel" role="button" data-mdb-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+      <a class="carousel-control-next" href="#MCCarousel" role="button" data-mdb-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
