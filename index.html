@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+      <!--Main Navigation-->
+  <header>
+    <style>
+      /* Carousel styling */
+      #introCarousel,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-item.active {
+        height: 100vh;
+      }
+
+      .introduction {
+        max-width: 640px;
+    min-height: 240px;
+    text-align: center;
+    margin-top: -50px;
+  }
+
+  .h0 {
+    font-size: calc(2rem + 1.5vw);
+    margin-bottom: 0;
+  }
+
+  .introduction-heading {
+    margin-bottom: 50px;
+  }
+  .introduction-body {
+
+  }
+
+  .introduction-socials {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .aboutme {
+      max-width: 640px;
+    min-height: 240px;
+    text-align: center;
+  }
+
+  .aboutme-text {
+    font-size: 0.9rem;
+  }
+
+  .aboutme-image {
+    border-radius: 360px;
+      width: 250px;
+      margin-right: 30px;
+  }
+
+.game-presentation {
+  max-width: 640px;
+min-height: 240px;
+text-align: center;
+}
+
+.introduction-socials-list {
+  width: 100%;
+}
+
+
+      .carousel-item:nth-child(1) {
+        background-image: url('img/black-background.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(2) {
+        background-image: url('img/black-background.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(3) {
+        background-image: url('img/my_hunter.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(4) {
+        background-image: url('img/my_defender.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(5) {
+        background-image: url('img/my_rpg.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+    </style>
+
+    <!-- Carousel wrapper -->
+    <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-interval="false">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="1" ></li>
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="3"></li>
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="4"></li>
+      </ol>
+
+      <!-- Inner -->
+      <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);backdrop-filter: blur(10px);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white text-center introduction">
+                <div class="introduction-heading">
+                <h1 class="h0">MAXENCE CARPENTIER</h1>
+                <h2 class="">GAME DEVELOPMENT ENTHUSIAST</h2>
+              </div>
+              <div class="introduction-body">
+                <h5 class="mb-4">Passionate about video games since my childhood, I always had this dream of making it my job!
+                  What excites me in this area is the creation of a universe, a unique experience that brings real immersion to players and makes them travel.</h5>
+                  <!-- Linkedin -->
+                  <div class="introduction-socials-list justify-content-center">
+<a href="https://www.linkedin.com/in/maxencecarpentier/"><i class="fab fa-linkedin-in introduction-socials"></i></a>
+<a href="mailto:maxence.carpentier@musicalink.fr"><i class="fa fa-envelope introduction-socials"></i></a>
+<a href="https://github.com/Musicalink"><i class="fab fa-github introduction-socials"></i></a>
+<a href="https://wa.link/843dpv"><i class="fab fa-whatsapp introduction-socials"></i></a>
+</div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);backdrop-filter: blur(10px);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+<img class="aboutme-image" src="img/maxencec.jpeg"/>
+<div class="aboutme text-white">
+  <h2>ABOUT ME</h2>
+  <p class="aboutme-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed purus sapien. Integer finibus facilisis porttitor.<br />
+Mauris pulvinar hendrerit neque, non egestas nibh euismod in. Quisque quam nulla, placerat et elementum ut, auctor vitae quam. Sed luctus sem eros, a mollis justo gravida id. Sed eget purus id justo gravida ornare. <br />
+Integer elementum lectus diam, nec bibendum felis efficitur auctor. Curabitur lobortis lectus ut tortor eleifend euismod maximus nec elit. Nam mi metus, pellentesque nec felis in, posuere aliquam neque. Proin placerat imperdiet nisi a viverra. Morbi viverra, ex vitae tincidunt rhoncus, lacus felis sagittis magna, eu ultricies mi sapien in nisi. Sed ut consectetur felis. Pellentesque ultricies, nunc quis faucibus blandit, turpis nisl feugiat felis, vitae feugiat lorem purus nec erat. Nullam eget tincidunt massa. Integer pellentesque sapien at dictum dapibus. Nam malesuada luctus pharetra. Mauris nec sollicitudin urna. Sed ut tempor magna.</p>
+</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+<div class="game-presentation text-white">
+  <h2>my_hunter (2018)</h2>
+  <p class="game-presentation-text">Realized during my studies at Epitech, this project aimed to make a reproduction of the game "Duck Hunt" in C/CSFML.
+This project allowed me to understand the importance of clean code as well as the basics of video game / engine development such as the main loop.</p>
+<a href="https://github.com/Musicalink"><i class="fab fa-github introduction-socials"></i></a>
+</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+<div class="game-presentation text-white">
+  <h2>my_defender(2018)</h2>
+  <p class="game-presentation-text">Realized as part of my schooling at Epitech, this project aimed to make a small tower defense in C/CSFML.
+This project allowed me to understand the importance of memory management and allowed me to improve in the way I work.</p>
+<a href="https://github.com/Musicalink"><i class="fab fa-github introduction-socials"></i></a>
+</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+<div class="game-presentation text-white">
+  <h2>my_rpg(2018)</h2>
+  <p class="game-presentation-text">Realized during my schooling at Epitech, this project aimed to make a small RPG in C/CSFML.
+This project made me understand the importance of good teamwork on larger projects in a limited time.
+
+The game features several simple quests, 3 biomes with different monsters, a stats, leveling and looting system (with three different classes of equipment), etc...</p>
+<a href="https://github.com/Musicalink"><i class="fab fa-github introduction-socials"></i></a>
+</div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <!-- Inner -->
+
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Carousel wrapper -->
+  </header>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
