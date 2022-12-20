@@ -135,20 +135,49 @@ text-align: center;
       .navbar .nav-link {
         color: #fff !important;
       }
+
+
+      .carousel-indicators{
+      list-style: none;
+  }
+  .carousel-indicators li, .carousel-indicators li.active{
+      width: 30px;
+      height: 30px;
+      background-color: rgba(0, 0, 0, 0);
+      position: relative;
+      margin: 10px;
+  }
+
+  .carousel-indicators li{
+      width: 64px;
+      height: 64px;
+      background-color: rgba(0, 0, 0, 0);
+      position: relative;
+      margin: 10px;
+  }
+  .carousel-indicators img{
+      position: absolute;
+      width: 100%;
+      border-radius: 50%;
+      height: 100%;
+      top: 0;
+      left: 0;
+  }
     </style>
 
     <!-- Carousel wrapper -->
     <div id="MCCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-interval="false">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="0" class="active"></li>
-        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="1" ></li>
-        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="2"></li>
-        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="3"></li>
-        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="4"></li>
-        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="5"></li>
-        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="6"></li>
-                <li data-mdb-target="#MCCarousel" data-mdb-slide-to="7"></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="0" class="active"><img src="img/home.png" alt="..."></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="1" ><img src="img/maxencec_mini.jpeg" alt="..."></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="2"><img src="img/duckhunt.png" alt="..."></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="3"><img src="img/towerdefense.png" alt="..."></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="4">
+        <img src="img/rpg.png" alt="..."></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="5"><img src="img/sokoban.png" alt="..."></li>
+        <li data-mdb-target="#MCCarousel" data-mdb-slide-to="6"><img src="img/navy.png" alt="..."></li>
+                <li data-mdb-target="#MCCarousel" data-mdb-slide-to="7"><img src="img/tetris.png" alt="..."></li>
       </ol>
 
       <!-- Inner -->
